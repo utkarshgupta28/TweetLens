@@ -35,14 +35,15 @@ NRCLex (Emotion Analysis)
 WordCloud
 
 # 📁 Project Structure
-tweetlens/
+
+tweetlens/  # Main project directory containing scripts and datasets
 ├── fetch_tweets.py           # Real tweet collection using Tweepy
 ├── generate_tweets.py        # GPT-2 based tweet generator
 ├── sentiment_analysis.py     # TextBlob-based polarity scoring
 ├── emotion_analysis.py       # NRCLex-based emotion scoring
 ├── wordcloud_visualizer.py   # WordCloud visualization
-├── TwitterClimateData.csv    # Real tweets dataset
-├── synthetic_tweets.csv      # GPT-2 generated tweets
+├── TwitterClimateData.csv    # Dataset containing real tweets fetched via Tweepy
+├── synthetic_tweets.csv      # Dataset containing GPT-2 generated synthetic tweets
 └── README.md                 # Project documentation
 
 # 📊 Key Insights
