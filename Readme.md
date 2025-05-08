@@ -39,19 +39,19 @@ WordCloud
 
 ## 📁 Project Structure
 
-tweetlens/
-TwitterClimateData.csv  # Real tweets dataset
-synthetic_tweets.csv    # GPT-2 generated tweets
-fetch_tweets.py         # Real tweet collection using Tweepy
-generate_tweets.py      # GPT-2 based tweet generator
-sentiment_analysis.py   # TextBlob-based polarity scoring
-emotion_analysis.py     # NRCLex-based emotion scoring
-wordcloud_visualizer.py # WordCloud visualization
-.env                    # Environment variables for sensitive data
-requirements.txt        # Python dependencies
-.gitignore              # Files to be excluded from version control
-README.md               # Project documentation
-main.py                 # Main script to run all steps sequentially
+- tweetlens/
+- TwitterClimateData.csv  # Real tweets dataset
+- synthetic_tweets.csv    # GPT-2 generated tweets
+- fetch_tweets.py         # Real tweet collection using Tweepy
+- generate_tweets.py      # GPT-2 based tweet generator
+- sentiment_analysis.py   # TextBlob-based polarity scoring
+- emotion_analysis.py     # NRCLex-based emotion scoring
+- wordcloud_visualizer.py # WordCloud visualization
+- .env                    # Environment variables for sensitive data
+- requirements.txt        # Python dependencies
+- .gitignore              # Files to be excluded from version control
+- README.md               # Project documentation
+- main.py                 # Main script to run all steps sequentially
 
 
 ## 📊 Key Insights
